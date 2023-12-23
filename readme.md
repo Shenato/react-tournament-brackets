@@ -16,7 +16,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <!-- <a href="https://github.com/g-loot/react-tournament-brackets">
+  <!-- <a href="https://github.com/Shenato/react-tournament-brackets">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
 
@@ -30,9 +30,9 @@
     <br />
     <a href="https://sleepy-kare-d8538d.netlify.app/?path=/story/components-bracket--bracket">View Live Demo</a>
     ·
-    <a href="https://github.com/g-loot/react-tournament-brackets/issues">Report Bug</a>
+    <a href="https://github.com/Shenato/react-tournament-brackets/issues">Report Bug</a>
     ·
-    <a href="https://github.com/g-loot/react-tournament-brackets/issues">Request Feature</a>
+    <a href="https://github.com/Shenato/react-tournament-brackets/issues">Request Feature</a>
   </p>
 </p>
 
@@ -246,7 +246,7 @@ _For more examples, please refer to the [Storybook][demo-url]_
   ]
 }
 ```
-- Double Eliminations `matches` prop structure with double finals, Keep the same structure and add a nextMatchId + nextLooserMatchId pointing to a new match in the same bracket (the finals can be in upper or in lower bracket) _For more examples of valid double finals data, check out the [mock data folder](https://github.com/g-loot/react-tournament-brackets/tree/master/src/mock-data) specifically  [data-double-last-game-lower.ts](https://github.com/g-loot/react-tournament-brackets/tree/master/src/mock-data/data-double-last-game-lower.ts) and [data-double-last-game-upper-double-playoffs.ts](https://github.com/g-loot/react-tournament-brackets/tree/master/src/mock-data/data-double-last-game-upper-double-playoffs.ts) _
+- Double Eliminations `matches` prop structure with double finals, Keep the same structure and add a nextMatchId + nextLooserMatchId pointing to a new match in the same bracket (the finals can be in upper or in lower bracket) _For more examples of valid double finals data, check out the [mock data folder](https://github.com/Shenato/react-tournament-brackets/tree/master/src/mock-data) specifically  [data-double-last-game-lower.ts](https://github.com/Shenato/react-tournament-brackets/tree/master/src/mock-data/data-double-last-game-lower.ts) and [data-double-last-game-upper-double-playoffs.ts](https://github.com/Shenato/react-tournament-brackets/tree/master/src/mock-data/data-double-last-game-upper-double-playoffs.ts) _
 ```json
 {
   [upper|lower]: [
@@ -300,7 +300,7 @@ console.log(MATCH_STATES);
 
 ```
 
-_For more examples of accepted data, check out the [mock data folder](https://github.com/g-loot/react-tournament-brackets/tree/master/src/mock-data)_
+_For more examples of accepted data, check out the [mock data folder](https://github.com/Shenato/react-tournament-brackets/tree/master/src/mock-data)_
 
 
 ## Theming and Styling
@@ -483,13 +483,13 @@ Contributions are what make the open source community such an amazing place to b
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/g-loot/react-tournament-brackets.svg?style=for-the-badge
-[contributors-url]: https://github.com/g-loot/react-tournament-brackets/graphs/contributors
+[contributors-url]: https://github.com/Shenato/react-tournament-brackets/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/g-loot/react-tournament-brackets.svg?style=for-the-badge
-[forks-url]: https://github.com/g-loot/react-tournament-brackets/network/members
+[forks-url]: https://github.com/Shenato/react-tournament-brackets/network/members
 [stars-shield]: https://img.shields.io/github/stars/g-loot/react-tournament-brackets.svg?style=for-the-badge
-[stars-url]: https://github.com/g-loot/react-tournament-brackets/stargazers
+[stars-url]: https://github.com/Shenato/react-tournament-brackets/stargazers
 [issues-shield]: https://img.shields.io/github/issues/g-loot/react-tournament-brackets.svg?style=for-the-badge
-[issues-url]: https://github.com/g-loot/react-tournament-brackets/issues
+[issues-url]: https://github.com/Shenato/react-tournament-brackets/issues
 [single-bracket-screenshot]: images/screenshot_single.png
 [double-bracket-screenshot]: images/screenshot_double.png
 [single-demo-url]: https://sleepy-kare-d8538d.netlify.app/?path=/story/components-bracket--bracket

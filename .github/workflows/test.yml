@@ -19,7 +19,6 @@ jobs:
         with:
           node-version: '12.x'
           registry-url: 'https://registry.npmjs.org'
-          scope: '@g-loot'
 
       - run: npm ci
         env:
