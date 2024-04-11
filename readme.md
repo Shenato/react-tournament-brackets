@@ -82,16 +82,16 @@ You only need to have react installed in your project to use this project.
 **Note:** default browser css is reset using the [minireset.css package](https://github.com/jgthms/minireset.css/) in the storybook demos. To fully control what the match component looks like you can build and supply your own view component for it 
 ## Getting Started
 ### Installation
-  This project is hosted on the public npm registry, here's the [link to the npm page](https://www.npmjs.com/package/@g-loot/react-tournament-brackets)
+  This project is hosted on the public npm registry, here's the [link to the npm page](https://www.npmjs.com/package/@Shenato/react-tournament-brackets)
   ```sh
-  npm install @g-loot/react-tournament-brackets
+  npm install @Shenato/react-tournament-brackets
   ```
 
 <!-- USAGE EXAMPLES -->
 ## Basic Usage
 
 ### Basics of the library
-`import { SingleEliminationBracket, DoubleEliminationBracket, Match, MATCH_STATES, SVGViewer } from '@g-loot/react-tournament-brackets';`
+`import { SingleEliminationBracket, DoubleEliminationBracket, Match, MATCH_STATES, SVGViewer } from '@Shenato/react-tournament-brackets';`
 | Component     | Description   |
 | ------------- |:-------------|
 | SingleEliminationBracket | Component for displaying single elimination bracket |
@@ -103,7 +103,7 @@ You only need to have react installed in your project to use this project.
 ### Using the components
 This component generates an SVG of all your bracket matches, you can use the supplied optional component `<SVGViewer />` like in the following example to wrap the SVG in a fixed size window with panning and zooming functionality, Note that you're also free to come up with your own solution for allowing the user to navigate giant brackets with ease.
 ```js
-import { SingleEliminationBracket, DoubleEliminationBracket, Match, SVGViewer } from '@g-loot/react-tournament-brackets';
+import { SingleEliminationBracket, DoubleEliminationBracket, Match, SVGViewer } from '@Shenato/react-tournament-brackets';
 export const DoubleElimination = () => (
   <DoubleEliminationBracket
     matches={matches}
@@ -130,7 +130,7 @@ export const SingleElimination = () => (
 
 - If you want the `SVGViewer` to fit it's container you will need some sort of hook to achieve that, like [useWindowSize()](https://usehooks.com/useWindowSize/), [useComponentSize](https://github.com/rehooks/component-size) or your own custom solution
 ```js
-import { DoubleEliminationBracket, Match, SVGViewer } from '@g-loot/react-tournament-brackets';
+import { DoubleEliminationBracket, Match, SVGViewer } from '@Shenato/react-tournament-brackets';
 
 export const DoubleElimination = () => {
   const [width, height] = useWindowSize();
@@ -287,7 +287,7 @@ _For more examples, please refer to the [Storybook][demo-url]_
 ```
 - Match / Participant States are defined in the exported constant `MATCH_STATES`
 ```js
-import { MATCH_STATES } from '@g-loot/react-tournament-brackets';
+import { MATCH_STATES } from '@Shenato/react-tournament-brackets';
 console.log(MATCH_STATES);
 // {
 //   PLAYED: 'PLAYED',
@@ -309,7 +309,7 @@ A few notes:
 - Some colors like the roundHeaders, and connectors aren't tied to the theme yet, you'll need to style those through the `options` prop manually for now, In the very near future they will be tied to the theme as well!
 #### Full Example of custom theming:
 ```js
-import { SingleEliminationBracket, Match, SVGViewer, createTheme } from '@g-loot/react-tournament-brackets';
+import { SingleEliminationBracket, Match, SVGViewer, createTheme } from '@Shenato/react-tournament-brackets';
 
 const WhiteTheme = createTheme({
   textColor: { main: '#000000', highlighted: '#07090D', dark: '#3E414D' },
@@ -367,7 +367,7 @@ export const WhiteThemeBracket = () => {
 
 #### Basic example of custom match component
 ```js
-import { SingleEliminationBracket, SVGViewer } from '@g-loot/react-tournament-brackets';
+import { SingleEliminationBracket, SVGViewer } from '@Shenato/react-tournament-brackets';
 
 export const CustomMatchBracket = () => {
   const [width, height] = useWindowSize();
@@ -482,13 +482,13 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/g-loot/react-tournament-brackets.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Shenato/react-tournament-brackets.svg?style=for-the-badge
 [contributors-url]: https://github.com/Shenato/react-tournament-brackets/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/g-loot/react-tournament-brackets.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/Shenato/react-tournament-brackets.svg?style=for-the-badge
 [forks-url]: https://github.com/Shenato/react-tournament-brackets/network/members
-[stars-shield]: https://img.shields.io/github/stars/g-loot/react-tournament-brackets.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/Shenato/react-tournament-brackets.svg?style=for-the-badge
 [stars-url]: https://github.com/Shenato/react-tournament-brackets/stargazers
-[issues-shield]: https://img.shields.io/github/issues/g-loot/react-tournament-brackets.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/Shenato/react-tournament-brackets.svg?style=for-the-badge
 [issues-url]: https://github.com/Shenato/react-tournament-brackets/issues
 [single-bracket-screenshot]: images/screenshot_single.png
 [double-bracket-screenshot]: images/screenshot_double.png

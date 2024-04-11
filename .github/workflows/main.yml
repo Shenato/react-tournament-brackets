@@ -45,7 +45,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GH_PACKAGE_TOKEN }}
       - run: npm run build
 
-      - name: run unit tests
+      - name: Run unit tests
         run: npm test
 
       - name: publish-npm
