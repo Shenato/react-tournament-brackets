@@ -28,7 +28,7 @@
     <a href="https://sleepy-kare-d8538d.netlify.app/?path=/story/components-bracket--bracket"><strong>Explore the storybook »</strong></a>
     <br />
     <br />
-    <a href="https://www.npmjs.com/package/react-tournament-brackets">NPM</a>
+    <a href="https://www.npmjs.com/package/react-tournament-brackets">Install on NPM</a>
     .
     <a href="https://sleepy-kare-d8538d.netlify.app/?path=/story/components-bracket--bracket">View Live Demo</a>
     ·
