@@ -82,7 +82,7 @@ You only need to have react installed in your project to use this project.
 **Note:** default browser css is reset using the [minireset.css package](https://github.com/jgthms/minireset.css/) in the storybook demos. To fully control what the match component looks like you can build and supply your own view component for it 
 ## Getting Started
 ### Installation
-  This project is hosted on the public npm registry, here's the [link to the npm page](https://www.npmjs.com/package/@g-loot/react-tournament-brackets)
+  This project is hosted on the public npm registry, here's the [link to the npm page](https://www.npmjs.com/package/react-tournament-brackets)
   ```sh
   npm install @g-loot/react-tournament-brackets
   ```
