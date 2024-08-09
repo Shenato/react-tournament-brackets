@@ -1,5 +1,5 @@
 {
-  "name": "@g-loot/react-tournament-brackets",
+  "name": "react-tournament-brackets",
   "version": "1.0.30",
   "description": "A react component to visualize bracket leaderboards",
   "module": "dist/esm/index.js",
