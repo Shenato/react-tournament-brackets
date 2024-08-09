@@ -10,6 +10,9 @@ const SRC_DIR = path.resolve(ROOT_DIR, '/src');
 module.exports = {
   stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
 
+  typescript: {
+    reactDocgen: false,
+  },
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
@@ -35,9 +38,7 @@ module.exports = {
     // Make whatever fine-grained changes you need
     config.module.rules.push({
       test: /\.(js|jsx)$/,
-      exclude: {
-        test: path.resolve(ROOT_DIR, 'node_modules'),
-      },
+      exclude: [path.resolve(ROOT_DIR, 'node_modules')],
       use: {
         loader: 'babel-loader',
         options: {
@@ -81,10 +82,10 @@ module.exports = {
 
   framework: {
     name: '@storybook/react-webpack5',
-    options: {}
+    options: {},
   },
 
   docs: {
-    autodocs: true
-  }
+    autodocs: true,
+  },
 };
