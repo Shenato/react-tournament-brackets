@@ -1,6 +1,6 @@
 {
   "name": "react-tournament-brackets",
-  "version": "1.0.34",
+  "version": "1.0.35",
   "description": "A react component to visualize bracket leaderboards",
   "main": "dist/bundle.js",
   "types": "dist/index.d.ts",
@@ -14,7 +14,8 @@
     "build-storybook": "build-storybook -o devapp-build",
     "test": "jest --verbose false",
     "lint": "eslint \"src/**/*.js\" \"src/**/*.jsx\"",
-    "format": "eslint --fix \"src/**/*.js\" \"src/**/*.jsx\""
+    "format": "eslint --fix \"src/**/*.js\" \"src/**/*.jsx\"",
+    "prepublishGit": "node ./scripts/publishGit.js"
   },
   "author": "Omar ElGaml",
   "license": "ISC",
