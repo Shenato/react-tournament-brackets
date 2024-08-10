@@ -25,12 +25,12 @@
   <p align="center">
     A straightforward implementation of single eliminations and double eliminations brackets in react
     <br />
-    <a href="https://sleepy-kare-d8538d.netlify.app/?path=/story/components-bracket--bracket"><strong>Explore the storybook »</strong></a>
+    <a href="https://elaborate-stroopwafel-5c9655.netlify.app/?path=/story/components-bracket--bracket"><strong>Explore the storybook »</strong></a>
     <br />
     <br />
     <a href="https://www.npmjs.com/package/react-tournament-brackets">Install on NPM</a>
     .
-    <a href="https://sleepy-kare-d8538d.netlify.app/?path=/story/components-bracket--bracket">View Live Demo</a>
+    <a href="https://elaborate-stroopwafel-5c9655.netlify.app/?path=/story/components-bracket--bracket">View Live Demo</a>
     ·
     <a href="https://github.com/Shenato/react-tournament-brackets/issues">Report Bug</a>
     ·
@@ -513,5 +513,5 @@ Contributions are what make the open source community such an amazing place to b
 [issues-url]: https://github.com/Shenato/react-tournament-brackets/issues
 [single-bracket-screenshot]: images/screenshot_single.png
 [double-bracket-screenshot]: images/screenshot_double.png
-[single-demo-url]: https://sleepy-kare-d8538d.netlify.app/?path=/story/components-bracket--bracket
-[double-demo-url]: https://sleepy-kare-d8538d.netlify.app/?path=/story/components-doubleelim--double-elimination
+[single-demo-url]: https://elaborate-stroopwafel-5c9655.netlify.app/?path=/story/components-bracket--bracket
+[double-demo-url]: https://elaborate-stroopwafel-5c9655.netlify.app/?path=/story/components-doubleelim--double-elimination

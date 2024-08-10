@@ -58,6 +58,7 @@ WalkOverBracket.args = {
   matches: walkOverData,
   matchComponent: Match,
 };
+
 export const SoloWalkOverBracket = Template.bind({});
 SoloWalkOverBracket.args = {
   matches: soloWalkover,
